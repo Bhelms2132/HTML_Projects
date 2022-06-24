@@ -1,1 +1,1 @@
-# HTML_Projects
+# Mini_Projects
