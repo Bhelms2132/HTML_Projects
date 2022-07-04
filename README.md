@@ -10,4 +10,4 @@ Listed below are the technologies that is used in some projects.  As I progress 
 
 -HTML
 -CSS
--JavaScript 
+-JavaScript
