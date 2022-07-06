@@ -10,7 +10,7 @@ body {
 }
 
 .navbar {
-    background-color: #ffff;
+    background-color: #BDC5F2;
     overflow: hidden;
     height: 63px;
 }
@@ -26,7 +26,7 @@ body {
 }
 
 .navbar a {
-    float: left;
+    float: right;
     display: block;
     text-align: center;
     text-decoration: none;
@@ -36,7 +36,7 @@ body {
 }
 
 .navbar a:hover {
-    color: #BDC5F2;
+    color: #F2F2F2;
 }
 
 .side-nav {
@@ -61,8 +61,12 @@ body {
 }
 
 .side-nav a {
+    display: block;
+    padding: 10px 10px 10px 30px;
     color: #415CF2;
     text-decoration: none;
+    font-size: 20px;
+    transition: 0.3s;
 }
 
 .container {
@@ -72,8 +76,5 @@ body {
     height: 100vh;
 }
 
-h1 {
-
-}
 
 
