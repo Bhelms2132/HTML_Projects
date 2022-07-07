@@ -88,11 +88,19 @@ body {
 }
 
 /* div "Hello World!" */
-.container {
+.home {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    background: #BDC5F2;
+    color: #F2F2F2;
+    height: 50vh;
 }
 
 /* Hides navbar links once screen size is at 568px or smaller */
