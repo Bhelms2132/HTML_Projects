@@ -10,7 +10,7 @@ body {
 }
 
 .navbar {
-    background-color: #BDC5F2;
+    background-color: #2745F2;
     overflow: hidden;
     height: 63px;
 }
@@ -18,7 +18,7 @@ body {
 .navbar ul {
     display: flex;
     justify-content: right;
-    /* padding: 8px 0 0 0; */
+    margin: 8px 0 0 0;
 }
 
 .navbar ul li {
@@ -32,13 +32,15 @@ body {
     text-decoration: none;
     padding: 14px 16px;
     font-size: 17px;
-    color: #415CF2;
+    color: #BDC5F2;
 }
 
-.navbar a:hover {
+ a:hover {
     color: #F2F2F2;
 }
 
+
+/* Slide menu */
 .side-nav {
     display: block;
     justify-content: center;
@@ -60,6 +62,7 @@ body {
     list-style: none;
 }
 
+/* Slide menu links */
 .side-nav a {
     display: block;
     padding: 10px 10px 10px 30px;
@@ -69,12 +72,44 @@ body {
     transition: 0.3s;
 }
 
+.side-nav a:hover {
+    color: #F2F2F2;
+}
+
+/* Close button "X" on the slide menu */
+.side-nav .btn-close {
+    position: absolute;
+    top: 0;
+    right: 22px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/* div "Hello World!" */
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
 }
+
+/* Hides navbar links once screen size is at 568px or smaller */
+@media (max-width:568px) {
+    .navbar-nav a{
+        display: none;
+    }
+}
+
+/* Hides burger button when screen is 568px or greater */
+@media (min-width:568px) {
+    .open-slide{
+        display: none;
+    }
+}
+
+
+
+
 
 
 
