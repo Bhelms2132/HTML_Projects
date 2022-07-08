@@ -33,11 +33,16 @@ body {
 /* Cards */
 
 .card {
+    overflow-wrap: break-word;
     box-shadow: 0 4px 8px 0 #0A13BF;
     transition: 0.3s;
     margin: 10px;
     width: 20%;
     border-radius: 5px;
+}
+
+img {
+    height: auto;
 }
 
 .card:hover {
