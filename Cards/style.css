@@ -4,25 +4,56 @@
     box-sizing: border-box;
 }
 
-
 body {
     background-color: #F2F2F2;
     font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.3em;
 }
+
+/* Header and Paragraph */
+.about-cards {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    margin: 20px;
+}
+
+/* Card row 1 with three cards inline */
+.row-1 {
+    display: flex;
+    justify-content: center;
+}
+
+/* Cards */
 
 .card {
     box-shadow: 0 4px 8px 0 #0A13BF;
     transition: 0.3s;
+    margin: 10px;
     width: 20%;
+    border-radius: 5px;
 }
 
 .card:hover {
     box-shadow: 0 8px 16px 0 #0A13BF;
 }
 
+.container {
+    padding: 2px 16px;
+}
+
 button {
+    float: right;
+    margin: 10px;
+    padding: 3px;
     background-color: #030A8C;
     color: #F2F2F2;
     border: none;
-    border-radius: 5%;
+    border-radius: 5px;
+    
+}
+
+button:hover {
+    background-color: #131FF2;
+    cursor: pointer;
 }
